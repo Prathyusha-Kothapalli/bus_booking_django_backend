@@ -1,1 +1,1 @@
-web: guincorn onlinebus.wsgi:application
+web: gunicorn onlinebus.wsgi --log-file -
