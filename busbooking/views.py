@@ -8,6 +8,8 @@ from rest_framework.response import Response
 from .models import Bus, Seat, Booking
 
 
+
+
 class Registerview(APIView):
     def post(self, request):
         serializer = UserRegisterSerializer(data = request.data)
